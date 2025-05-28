@@ -10,7 +10,7 @@ This projects aims to explore trends and patterns in UFO sightings from NUFORC's
 
 ### Data Sources
 
-Ufo Sightings Data: The primary dataset used for this analysis is the "ufo_sightings_scrubbed.csv", containing each information about ufo sightings reported to NUFORC
+Ufo Sightings Data: The primary dataset used for this analysis is the "ufo_sightings_scrubbed.csv", containing information about ufo sightings reported to NUFORC
 
 ### Tools
 **Languages:**
@@ -20,3 +20,13 @@ Ufo Sightings Data: The primary dataset used for this analysis is the "ufo_sight
 * Numpy (Numerical Operation)
 * Pandas (Data Cleaning)
 * Matplotlib/Seaborn/Plotly (Data Visualization)
+
+### Data Cleaning
+In the data cleaning phase, I performed the following tasks:
+1. Dropping irrelevant columns
+2. Dropping duplicated data
+3. Reformatting country column
+4. Handling nulls in country column
+5. Converting columns into the right datatype
+6. Split datetime column into date and time respectively
+7. Removing Outliers
